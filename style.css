@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", serif;
+    margin:0;
+    padding: 0px;
+}
+body{
+    background: rgb(23, 23, 23);
+    text-align: center;
+}
+div#conteiner{
+    background: rgb(37, 37, 37);
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    height: 620px;
+    border-radius: 50px;
+}
+h1#titulo{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 700;
+}
+div#conjuntobot{
+    margin-top: -15px;
+}
+button{
+    font-size: 30px;
+    line-height:45px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    color:rgb(1, 77, 255);
+    
+    background-color: rgb(37, 37, 37);
+    border: solid 2px rgb(1, 77, 255);
+    transition: background .3s;
+    margin: 5px;
+}
+button:hover{
+    background-color:rgb(1, 77, 255);
+    color:white;
+    
+}
+button.botaoIGUAL {
+    background-color:rgb(255, 255, 255);
+    color: rgb(1, 77, 255);
+}
+button.botaoIGUAL:hover {
+    background-color:rgb(1, 77, 255);
+    color: rgb(255, 255, 255);
+}
+ion-icon{
+    color: white;
+    font-size: 40px;
+}
+textarea#exibicao{
+    width: 400px;
+    height: 80px;
+    font-size: 55px;
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(30, 30, 30);
+    overflow:hidden;
+    border: solid 1px rgb(1, 77, 255);
+    color: white;
+    resize: none;
+}
+
+footer {
+    margin-top: 10px;
+    color: rgb(123, 123, 123);
+}

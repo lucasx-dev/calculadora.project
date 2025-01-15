@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora em JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 id="titulo">Calculadora</h1>
+<div id="conteiner">
+    <textarea name="exibicao" id="exibicao"></textarea>
+    <div id="conjuntobot">
+    <div>
+        <button class="botaoop"  onclick="abrecol('(')">(</button>
+        <button class="botaoop"  onclick="fechacol(')')">)</button>
+        <button class="botaoop"  onclick="divisao('÷')">÷</button>
+        <button class="botaoop"  onclick="multiplicacao('x')">x</button>
+    </div>
+    <div>
+        <button class="botaonum" onclick="adicionar('1')">1</button>   
+        <button class="botaonum" onclick="adicionar('2')">2</button>
+        <button class="botaonum" onclick="adicionar('3')">3</button>
+        <button class="botaonum" onclick="adicionar('4')">4</button>   
+    </div>
+    <div>
+        <button class="botaonum" onclick="adicionar('5')">5</button>
+        <button class="botaonum" onclick="adicionar('6')">6</button>
+        <button class="botaonum" onclick="adicionar('7')">7</button>
+        <button class="botaoop"  onclick="adicao('+')">+</button>   
+    </div>
+    <button class="botaonum" onclick="adicionar('9')">9</button>
+    <button class="botaonum" onclick="adicionar('0')">0</button>
+    <button class="botaonum" onclick="adicionar('8')">8</button>
+    <button class="botaoop"  onclick="subtracao('-')">-</button>
+    <div>
+    <button class="botaonum" onclick="ponto('.')">,</button>
+    <button class="botaoop" onclick="del()">C</button>
+    <td colspan="2" rowspan="2"><button class="botaoIGUAL" onclick="calcular()" value="=" style="width: 150px">=</button></td>
+    </div>
+    <div>
+        <button class="botaoop" onclick="apagar()">⌫</button>
+    </div>
+    </div>
+</body>
+</div>
+<footer>&copy; Lucas Albuquerque | Developer </footer>
+<script src="environment.js"></script>
+</html>
